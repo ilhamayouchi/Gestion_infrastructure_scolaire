@@ -17,21 +17,14 @@ public class AffectationÉquipement {
     private Date date_affectation;
 
     // Constructeur
-    public AffectationÉquipement(int id,  Salle salle, Équipement equipement, Date date_affectation) {
-        this.id = id;
+    public AffectationÉquipement(Salle salle, Équipement equipement, Date date_affectation) {
+       
         this.salle = salle;
         this.equipement = equipement;
         this.date_affectation = date_affectation;
     }
 
     // Getters et Setters
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
 
     public int getSalle_id() {
         return salle;
