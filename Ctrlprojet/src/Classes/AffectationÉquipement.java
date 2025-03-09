@@ -35,7 +35,7 @@ public class AffectationÉquipement {
     }
 
     public int getEquipement_id() {
-        return equipement_id;
+        return equipement;
     }
 
     public void setEquipement_id(Équipement equipement) {
