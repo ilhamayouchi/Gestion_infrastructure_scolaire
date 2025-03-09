@@ -12,15 +12,15 @@ package Classes;
 public class AffectationÉquipement {
     // Attributs
     private int id;
-    private int salle_id;
-    private int equipement_id;
+    private Salle salle;
+    private Équipement equipement;
     private Date date_affectation;
 
     // Constructeur
-    public AffectationÉquipement(int id, int salle_id, int equipement_id, Date date_affectation) {
+    public AffectationÉquipement(int id,  Salle salle, Équipement equipement, Date date_affectation) {
         this.id = id;
-        this.salle_id = salle_id;
-        this.equipement_id = equipement_id;
+        this.salle = salle;
+        this.equipement = equipement;
         this.date_affectation = date_affectation;
     }
 
