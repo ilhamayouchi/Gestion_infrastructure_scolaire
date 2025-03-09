@@ -11,7 +11,7 @@ package Classes;
  */
 public class AffectationÉquipement {
     // Attributs
-    private int id;
+    
     private Salle salle;
     private Équipement equipement;
     private Date date_affectation;
