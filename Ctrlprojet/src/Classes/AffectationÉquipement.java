@@ -37,16 +37,16 @@ public class AffectationÉquipement {
         return salle_id;
     }
 
-    public void setSalle_id(int salle_id) {
-        this.salle_id = salle_id;
+    public void setSalle_id(Salle salle) {
+        this.salle = salle;
     }
 
     public int getEquipement_id() {
         return equipement_id;
     }
 
-    public void setEquipement_id(int equipement_id) {
-        this.equipement_id = equipement_id;
+    public void setEquipement_id(Équipement equipement) {
+        this.equipement = equipement;
     }
 
     public Date getDate_affectation() {
